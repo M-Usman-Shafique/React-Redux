@@ -1,0 +1,116 @@
+.container:nth-child(1) {
+  margin-top: 90px;
+}
+.card-text {
+    margin: 20px 0px;
+}
+.card-set {
+    /* place-content: center; */
+padding-top: 0;
+margin-top: 0;
+}
+.quantity-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.inc-box, .dec-box {
+  background-color: #e3e1e1;
+  border: 1px solid darkgrey;
+  padding: 2px 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.inc-box:hover, .dec-box:hover {
+    background-color: #dadada;
+}
+.qty {
+    background:#e3e1e1;
+    border: 1px solid darkgrey;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.inc-img,
+.dec-img {
+  width: 25px;
+  height: 25px;
+}
+.empty-box {
+  margin-top: 120px;
+}
+.delete {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+.delete:hover .img-cut {
+  /* background-color: rgba(235, 232, 232, 0.667); */
+  transition: all 0.3s ease-in-out;
+  opacity: 70%;
+}
+
+.img-cut {
+  width: 10px;
+  height: 10px;
+  opacity: 20%;
+}
+.empty-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-box {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty-text {
+  font-weight: bold;
+  color: #435355;
+}
+.empty {
+  width: 265px;
+  height: 265px;
+  transform: rotate(-10deg);
+  opacity: 20%;
+}
+.continue {
+  background-color: #435355;
+  color: whitesmoke;
+  padding: 11px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.continue:hover {
+  background-color: #435355;
+  color: whitesmoke;
+}
+.extra {
+  margin-top: 13px;
+}
+.clear {
+  background-color: whitesmoke;
+  color: #435355;
+  border: 2px solid #435355;
+  width: 230px;
+  border-radius: 50px;
+}
+.check {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    padding: 20px 0px;
+}
